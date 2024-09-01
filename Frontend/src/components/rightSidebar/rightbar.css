@@ -1,0 +1,78 @@
+.rightbar{
+    flex: 2.9;
+}
+
+.rightbarWrapper{
+    padding-top: 17px;
+    padding-right: 20px;
+}
+
+.birthdaycontainer{
+    display: flex;
+    align-items: center;
+}
+
+.cakeLogo{
+    height: 72px;
+    width: 72px;
+}
+
+.birthdayText{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.ads{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 96%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.onlineText{
+    margin: 10px;    
+    font-weight: 600;
+}
+
+.onlineFriendList{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.onlineFriend{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.rightbarProfileImgcontainer{
+    position: relative;
+}
+
+.onlinefriendimg{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 14px;
+}
+
+.onlineLogo{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(25, 226, 25);
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: 16px;
+    border: solid 2px white;
+}
+
+.onlinefriendname{
+    font-weight: 500;
+}
